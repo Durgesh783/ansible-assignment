@@ -1,0 +1,4 @@
+- name: installing docker
+  action: yum name=docker state=present
+- name: restart docker
+  command: systemctl start docker

@@ -1,0 +1,7 @@
+- name: copying content to files
+  copy:
+    dest: "copy.txt"
+    content: |
+       Hi 
+       Good evening
+       i'm copying file content

@@ -1,0 +1,11 @@
+- name: Install httpd
+  action: yum name=httpd state=present
+
+- name: Restart httpd
+  command: systemctl restart httpd
+
+- name: integrating git with ansible
+  git:
+    repo: 'https://github.com/Durgesh783/ansibletask.git'
+    dest: "/var/www/html"
+

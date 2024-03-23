@@ -1,0 +1,7 @@
+- name: Installing java
+  command: yum install java-11-openjdk -y
+  tags: javaonappserver
+
+- name: Installing mysql
+  command: yum install mysql -y
+  tags: mysqlondbserver

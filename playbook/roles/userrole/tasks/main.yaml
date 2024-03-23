@@ -1,0 +1,9 @@
+- name: adding users
+  user: name='{{item}}' state=present
+  with_items:
+          - user5
+          - user6
+          - user7
+          - user8
+          - user9
+          - user10

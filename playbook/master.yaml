@@ -1,0 +1,14 @@
+---
+- hosts: dbserver
+  become: yes
+  roles:
+   # - userrole
+   # - deprole
+   # - dockerrole
+   # - dbrole
+   # - copyrole
+    - modulerole
+
+
+
+
